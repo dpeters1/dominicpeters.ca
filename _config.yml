@@ -18,7 +18,7 @@ email_username:  dpeters0905@gmail.com
 # Build settings
 markdown: kramdown
 highlighter: rouge
-permalink: pretty
+permalink: none
 paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 

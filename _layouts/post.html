@@ -17,6 +17,9 @@ layout: default
             </div>
         </div>
     </div>
+    {% if page.use_math %}
+      {% include mathjax.html %}
+    {% endif %}
 </header>
 
 <!-- Post Content -->
