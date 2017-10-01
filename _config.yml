@@ -1,0 +1,25 @@
+# Site settings
+title: dominicpeters.ca
+header-img: img/home-bg.jpg
+email: dpeters0905@gmail.com
+copyright_name: Dominic Peters
+description: "A place for me to share some of my projects and ideas"
+baseurl: ""
+url: "http://dominicpeters.com"
+twitter_username: dpeters1
+github_username:  dpeters1
+facebook_username:  dominicpeters
+email_username:  dpeters0905@gmail.com
+
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+# google_tracking_id:
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+plugins: [jekyll-paginate, jekyll-feed]
