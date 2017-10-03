@@ -1,6 +1,6 @@
 ---
 layout: page
-description: ""
+title: "home"
 header-img: "img/cover.jpg"
 pagination: 
   enabled: true

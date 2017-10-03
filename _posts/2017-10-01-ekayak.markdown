@@ -110,22 +110,20 @@ At this point I found out that there was not yet a library for communicating wit
 An Android app seemed like the most logical method of viewing telemetry and controlling the kayak when required. Modern phones have gobs of processing power and include all the sensors you could ever ask for. “Houston” is the app I developed to serve this task. Being the first *real* Android app I’ve written, I spent more time rewriting the abhorrent parts into slightly less terrible versions. Also, there are always at least a half dozen ways to accomplish anything, but stack exchange (and sometimes google themselves) can never agree on which is best. 
 In portrait mode the phone displays various telemetry data and throttle is controlled by a potentiometer directly connected to the controller. This use case is for when you’re actively sitting in the kayak and cruising around. I’m particularly happy with the power graph and estimated remaining runtime calculation, which become really useful while doing longer trips. When flipped into landscape, the phone enters “control mode” and you have control over the steering by phone tilt and throttle via the slider. This allows you to get out of the kayak and use it as an incredibly high power/weight ratio rc boat. Thanks to the long range antenna on the ESP8266, over ½ km of range is possible. 
 App Demo:
-<iframe width="560" height="420" src="http://www.youtube.com/embed/fXKu48IQiA8?color=white&theme=light"></iframe>
+{% youtube fXKu48IQiA8 %}
 
 ## First Test
 
 The end of summer was nearing and it was time to finally get the Kayak out on the water. After arriving at the beach and and triple checking the connections, I set out on its maiden voyage. For a couple seconds it looked like everything was going well, and then I raised the throttle and the driveshaft promptly sheared, leaving me paddling back to shore in shame. Still, it was not a total failure. The test had shown that all the electronic systems were working and the telemetry looked good. As for the driveshaft, it failed right where it mated with the bevel gear. The gear had some extra material so I later bored it out and fitted a larger diameter shaft, solving that issue.
 My dad was there to capture it all on camera:
-<iframe width="560" height="420" src="http://www.youtube.com/embed/vhvJkqDGZ58?color=white&theme=light"></iframe>
-
+{% youtube vhvJkqDGZ58 %}
 
 # Subsequent Testing
 
 The next few tests all revealed small problems that had to be ironed out. Broken set screws, stripped servo gears, and leaky driveline casings were at fault for the premature endings of several of my tests. On one occasion I brushed my hand on the throttle pot while getting out of the kayak, sending the motor into full throttle while the propeller dug into the sand. This caused some significant damage to the bevel gears and meant that in subsequent tests, I could not push over 500W before the gears started to slip. (Previously I had seen numbers up 2500W in telemetry) This is the current state of the kayak until I receive new bevel gears in the mail. On the bright side, this has allowed me to do lots of testing at low power levels. It seems that the kayak is most at home cruising around 300W output power. This allows for a speed similar to the row boats which frequent the section of the Rideau canal on which I test. Most surprisingly, I can get a solid 1 ½ to 2 hours of run time like this. If I slow down to the crawling speed of a regular canoe or kayaker, 3+ hours of runtime is possible. Overall I am quite satisfied with this but can’t wait to get the new gears so I can test what it’s like when the motor is pushing 3.5 HP.
 
 Here’s a short POV clip while the Kayak is cruising along:
-<iframe width="560" height="420" src="http://www.youtube.com/embed/qVyzvzMn1L4?color=white&theme=light"></iframe>
-
+{% youtube qVyzvzMn1L4 %}
 
 ## Next Steps
 
