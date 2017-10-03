@@ -1,0 +1,18 @@
+---
+layout:     post
+title:      "OpenCV Maze Game"
+subtitle:   "A maze game where physical objects interact with software boundaries"
+date:       2017-03-03 12:00:00
+categories: projects
+author:     "Dominic Peters"
+---
+
+A simple maze game that relies on OpenCV colour space filtering to track objects. Maze levels are generated and must be navigated by moving the object in front of the camera.
+
+Developed at CU Hacking Hackathon at Carleton University.
+
+To play, compile OpenCV 3.X.X with python 2.7 bindings. Object detection parameters are calibrated with `python Colour_Calibration.py` Game can then be played with `python cvMazeGame.py` 
+
+
+Demo Video:
+{% youtube qnN-FAinwjQ %}

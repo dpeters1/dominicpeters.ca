@@ -19,8 +19,14 @@ email_username:  dpeters0905@gmail.com
 markdown: kramdown
 highlighter: rouge
 permalink: none
-paginate: 5
-paginate_path: "/page:num/"
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: '/:num/'
+  title: ':title' 
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-plugins: [jekyll-paginate, jekyll-feed]
+plugins: [jekyll-paginate-v2, jekyll-feed]

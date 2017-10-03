@@ -5,5 +5,4 @@ subtitle:   "Re purposing a propriety rf remote control for maximum laziness"
 date:       2016-10-25 12:00:00
 categories: projects
 author:     "Dominic Peters"
-header-img: "img/post-bg-06.jpg"
 ---
