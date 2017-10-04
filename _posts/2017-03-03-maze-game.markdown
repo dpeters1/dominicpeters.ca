@@ -16,3 +16,5 @@ To play, compile OpenCV 3.X.X with python 2.7 bindings. Object detection paramet
 
 Demo Video:
 {% youtube qnN-FAinwjQ %}
+
+[Source Code](https://github.com/dpeters1/cvMaze-Game)
