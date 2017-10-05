@@ -137,7 +137,7 @@ This project has been an amazing learning opportunity and I’m not quite finish
 
   {% for image in site.static_files %}
   {% if image.path contains 'img/E-Kayak/build' %}
-<img src="{{site.baseurl}}{{image.path}}">
+<img data-src="{{site.baseurl}}{{image.path}}">
   {% endif %}
   {% endfor %}
 

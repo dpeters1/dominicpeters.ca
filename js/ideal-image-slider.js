@@ -206,7 +206,7 @@ var IdealImageSlider = (function() {
 
 		if (slider._attributes.aspectWidth && slider._attributes.aspectHeight) {
 			// Aspect ratio
-			var maxWidth = document.getElementsByClassName('col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1')[0].offsetWidth;
+			var maxWidth = document.getElementsByClassName('col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1')[1].offsetWidth;
 
 			newHeight = slider._attributes.aspectHeight / slider._attributes.aspectWidth * maxWidth;
 
@@ -216,7 +216,7 @@ var IdealImageSlider = (function() {
 
 			if(window.innerWidth < 768){
 
-				newWidth = maxWidth;
+				newWidth = maxWidth - 30; // container width minus padding
 				newHeight = imageAR * maxWidth;
 			}
 
