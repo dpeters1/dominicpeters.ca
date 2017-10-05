@@ -5,14 +5,13 @@ email: dpeters0905@gmail.com
 copyright_name: Dominic Peters
 description: "A place for me to share some of my projects and ideas"
 baseurl: ""
-url: "https://dpeters1.github.io"
+url: "https://dominicpeters.ca"
 #twitter_username: dpeters1
 github_username:  dpeters1
 #facebook_username:  dominicpeters
 email_username:  dpeters0905@gmail.com
 
 # Google Analytics
-# To enable google analytics, uncomment below line with a valid Google Tracking ID
 google_tracking_id: UA-107367781-1
 
 # Build settings
