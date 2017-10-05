@@ -129,3 +129,17 @@ Here’s a short POV clip while the Kayak is cruising along:
 ## Next Steps
 
 This project has been an amazing learning opportunity and I’m not quite finished with it yet. The changes for version 2 will be aimed at making it easier to use and more reliable. Currently I have in mind to redesign the lower driveline casing to make it easier to assemble and more waterproof. Also the controller enclosure is completely overkill and can probably be shrunk by 30-50%. I will continue to update the blog as much as possible as developments are made. Thanks for taking the time to read through it!
+
+## Image Gallery
+<p></p> <!-- workaround for line breaks not rendering correctly -->
+{% slider slideshow %}
+  {% for i in (1..10) %}
+<img data-src="{{ site.url }}/img/{{ page.title }}/buildpics/build ({{ i }}).jpg">
+  {% endfor %}
+{% endslider %}
+
+  {% for i in (1..10) %}
+<img src="{{ site.url }}/img/{{ page.title }}/buildpics/build ({{ i }}).jpg">
+  {% endfor %}
+
+<p></p>    

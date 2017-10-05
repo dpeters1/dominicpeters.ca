@@ -36,7 +36,7 @@ layout: default
                     </h3>
                     {% endif %}
                     </a>
-                <p class="post-meta">Posted to {{ post.categories }} on {{ post.date | date: "%B %-d, %Y" }}</p>
+                <p class="post-meta">Posted to <a href="{{ site.url }}/{{ post.categories }}">{{ post.categories }}</a> on {{ post.date | date: "%B %-d, %Y" }}</p>
             </div>
             <hr>
             {% endfor %}

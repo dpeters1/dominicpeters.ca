@@ -13,6 +13,11 @@
 
     {% include ga.html %}
 
+    <!-- Sliders on pages -->
+    {% for script in page.iis_slider_scripts %}
+      {{ script }}
+    {% endfor %}
+
 </body>
 
 </html>
