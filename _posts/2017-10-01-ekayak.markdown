@@ -132,14 +132,15 @@ This project has been an amazing learning opportunity and I’m not quite finish
 
 ## Image Gallery
 <p></p> <!-- workaround for line breaks not rendering correctly -->
-{% slider slideshow %}
-  {% for i in (1..10) %}
-<img data-src="{{ site.url }}/img/{{ page.title }}/buildpics/build ({{ i }}).jpg">
-  {% endfor %}
-{% endslider %}
 
-  {% for i in (1..10) %}
-<img src="{{ site.url }}/img/{{ page.title }}/buildpics/build ({{ i }}).jpg">
+{% slider 4:3 %}
+
+  {% for image in site.static_files %}
+  {% if image.path contains 'img/E-Kayak/build' %}
+<img src="{{site.baseurl}}{{image.path}}">
+  {% endif %}
   {% endfor %}
+
+{% endslider %}
 
 <p></p>    

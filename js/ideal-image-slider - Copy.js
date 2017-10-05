@@ -198,29 +198,12 @@ var IdealImageSlider = (function() {
 			return;
 		}
 
-		var currentWidth = Math.round(slider._attributes.container.offsetWidth),
-			newWidth = currentWidth;
-
 		var currentHeight = Math.round(slider._attributes.container.offsetHeight),
 			newHeight = currentHeight;
 
 		if (slider._attributes.aspectWidth && slider._attributes.aspectHeight) {
 			// Aspect ratio
-			var maxWidth = document.getElementsByClassName('col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1')[0].offsetWidth;
-
-			newHeight = slider._attributes.aspectHeight / slider._attributes.aspectWidth * maxWidth;
-
-			var imageAR = slider._attributes.currentSlide.getAttribute('data-actual-height') / slider._attributes.currentSlide.getAttribute('data-actual-width');
-
-			newWidth = Math.round(newHeight / imageAR);
-
-			if(window.innerWidth < 768){
-
-				newWidth = maxWidth;
-				newHeight = imageAR * maxWidth;
-			}
-
-
+			newHeight = (slider._attributes.aspectHeight / slider._attributes.aspectWidth) * slider._attributes.container.offsetWidth;
 		} else {
 			// Auto
 			var width = slider._attributes.currentSlide.getAttribute('data-actual-width');
@@ -236,23 +219,20 @@ var IdealImageSlider = (function() {
 			newHeight = maxHeight;
 		}
 
-		/*
 		newHeight = Math.round(newHeight);
 		if (newHeight === currentHeight) {
 			return;
-		} */
+		}
 
 		if (shouldAnimate) {
 			_animate({
 				time: slider.settings.transitionDuration,
 				run: function(progress) {
 					slider._attributes.container.style.height = Math.round(progress * (newHeight - currentHeight) + currentHeight) + 'px';
-					slider._attributes.container.style.width = Math.round(progress * (newWidth - currentWidth) + currentWidth) + 'px';
 				}
 			});
 		} else {
 			slider._attributes.container.style.height = newHeight + 'px';
-			slider._attributes.container.style.width = newWidth + 'px';
 		}
 	};
 
