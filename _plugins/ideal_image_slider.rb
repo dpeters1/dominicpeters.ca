@@ -78,7 +78,7 @@ module Jekyll
         slider_script += "});"
         slider_script += "#{slider_id}.addBulletNav();" if @slider_bullets
         slider_script += "#{slider_id}.addCaptions();" if @slider_captions
-        slider_script += "#{slider_id}.start();" if @slider_slideshow
+        slider_script += "#{slider_id}.start();" #if @slider_slideshow
         slider_script += "</script>"
         slider_array = context.environments.first['site']['iis_slider_array']
         slider_array << slider_script

@@ -1,12 +1,11 @@
 ---
 layout: page
 title: "about"
-header-img: "img/about_bg.jpg"
 ---
 
 <div class="wrapper">
     <div id="one">
-        <div id="avatar" style="background-image: url('{{ site.baseurl }}/img/profile.jpg');">
+        <div class="avatar" style="background-image: url('{{ site.baseurl }}/img/profile.jpg');">
         </div>
     </div>
     <div id="two">
@@ -14,7 +13,7 @@ header-img: "img/about_bg.jpg"
     </div>
 </div>
 
-This website is intended to be a place to document my projects as well as some of the more interesting 'tidbits' I encounter. Although I've been doing this for a few years on various sites such as github, hackaday, hackster.io, and youtube, none of these offered a central location to share the things as I wanted.
+This website is intended to be a place to document my projects as well as some of the more interesting 'tidbits' I encounter. Although I've been doing this for a few years on various sites such as github, hackaday, hackster.io, and youtube, none of these offered a central location to share things as I wanted.
 
 If you have any questions, criticisms, or just want to say hi, you can contact me through the email button below.
 

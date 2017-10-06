@@ -57,7 +57,7 @@ blockquote p {
   margin-top: 45px;
 }
 
-#avatar {
+.avatar {
     /* make a square container */
     width: 250px;
     height: 250px;
@@ -74,6 +74,11 @@ blockquote p {
     border-radius: 50%;
 }
 
+.bigAvatar {
+  width: 350px;
+  height: 350px;
+}
+
 @media screen and (max-width: 768px) {
    #one { 
     float: none;
@@ -86,10 +91,14 @@ blockquote p {
   margin-top: 20px;
   text-align: center;
   }
-  #avatar {
+  .avatar {
     /* make a square container */
     width: 200px;
     height: 200px;
+  }
+  .bigAvatar {
+    width: 250px;
+    height: 250px;
   }
 }
 
@@ -121,4 +130,14 @@ blockquote p {
   margin-right: auto;
   }
 }
-*/
+
+/* image captions */
+h6 {
+  margin-top: -20px;
+  text-align: center;
+}
+
+/* date tags */
+h5 {
+  margin-bottom: -10px;
+}
