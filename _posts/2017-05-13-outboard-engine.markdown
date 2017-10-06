@@ -29,7 +29,7 @@ Luckily, the old venturi was plastic. It also sits right at the carb inlet, wher
 ![]({{ site.url }}/img/outboard-engine/CAD-model.jpg){:class="center" width="70%"}
 
 Everything was put back together and lugged into the driveway for its first test. Remember, this engine hadn't been started in over a decade. It took a bit of sweet talking and a can of quick start, but eventually it fired up!
-<video class="center" width="420px" controls muted autoplay loop>
+<video class="center centerV" width="420px" controls muted autoplay loop>
   <source src="{{ site.url }}/img/outboard-engine/running.mp4" type="video/mp4">
 </video><p></p>
 

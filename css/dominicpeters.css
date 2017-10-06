@@ -4,6 +4,11 @@
   margin-right: auto;
 }
 
+@media only screen and (max-width: 768px) {
+  .centerV{
+    width: 100%;
+  } 
+}
 blockquote p {
   margin: 0 0;
 }
