@@ -5,7 +5,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .centerV{
+  .center {
     width: 100%;
   } 
 }
@@ -46,17 +46,31 @@ blockquote p {
   }
 }
 
-.wrapper { 
+.split {
+  overflow: hidden;
+}
+.split #one {
+  width: 50%;
+  padding-right: 10px;
+  float: left;
+}
+.split #two {
+  width: 50%;
+  padding-left: 10px;
+  float: right;
+}
+
+#aboutme { 
   margin-top: -30px;
   overflow:hidden;
 }
 
-#one {
+#aboutme #one {
   float:left;
   padding: 10px;
   margin-top: 40px;
 }
-#two { 
+#aboutme #two { 
   overflow:hidden;
   padding-left: 40px;
   margin-top: 45px;
@@ -85,12 +99,12 @@ blockquote p {
 }
 
 @media screen and (max-width: 768px) {
-   #one { 
+   #aboutme #one { 
     float: none;
     margin:0 auto;
     border:0;
   }
-  #two { 
+  #aboutme #two { 
   overflow:hidden;
   padding-left: 0;
   margin-top: 20px;
@@ -145,4 +159,8 @@ h6 {
 /* date tags */
 h5 {
   margin-bottom: -10px;
+}
+
+a.btn:hover {
+  color: #0085a1;
 }

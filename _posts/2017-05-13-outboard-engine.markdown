@@ -22,14 +22,15 @@ The first job was to build a stand for the engine so I could take it apart and l
 ###### My bedroom was its new home
 
 I had no idea what was wrong with the engine, but the carburetor is a good place to start. The nice thing about the older models is they're incredibly simple. After taking the cowling off, you can get a sense of how the engine works just by looking at it. Soon enough, the problem emerged. The venturi had broken and was wedged inside the mixing chamber of the carburetor. A venturi acts to increase the velocity of the air entering the carburetor. This allows for better air/fuel mixing, and I assume that without it, the engine could start but would not stay running. A quick google search confirmed that the part was discontinued and no longer in stock anywhere. 
-![]({{ site.url }}/img/outboard-engine/carb.jpg){:class="center" width="50%"}
+
+![]({{ site.url }}/img/outboard-engine/carb.jpg){:class="center" width="420px"}
 ###### If you look through the throttle body you can see the broken venturi
 
 Luckily, the old venturi was plastic. It also sits right at the carb inlet, where cold air entering the carb keeps it from getting too hot. Normally 3D printing would be totally out of question for anything related to an internal combustion engine, but in this case there isn't really any reason why it shouldn't work. A replica of the old piece was modelled in AutoCAD, and after a trip to the Library's 3D printer, I had a new venturi.
-![]({{ site.url }}/img/outboard-engine/CAD-model.jpg){:class="center" width="70%"}
+![]({{ site.url }}/img/outboard-engine/CAD-model.jpg){:class="center" width="420px"}
 
 Everything was put back together and lugged into the driveway for its first test. Remember, this engine hadn't been started in over a decade. It took a bit of sweet talking and a can of quick start, but eventually it fired up!
-<video class="center centerV" width="420px" controls muted autoplay loop>
+<video class="center" width="420px" controls muted autoplay loop>
   <source src="{{ site.url }}/img/outboard-engine/running.mp4" type="video/mp4">
 </video><p></p>
 

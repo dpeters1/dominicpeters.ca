@@ -3,7 +3,7 @@ layout:     post
 title:      "OpenCV Maze Game"
 subtitle:   "A maze game where physical objects interact with software boundaries"
 date:       2017-03-03 12:00:00
-categories: projects
+categories: tidbits
 author:     "Dominic Peters"
 ---
 

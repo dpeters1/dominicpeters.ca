@@ -3,7 +3,7 @@ layout: page
 title: "about"
 ---
 
-<div class="wrapper">
+<div id="aboutme">
     <div id="one">
         <div class="avatar" style="background-image: url('{{ site.baseurl }}/img/profile.jpg');">
         </div>
