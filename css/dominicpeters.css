@@ -164,3 +164,16 @@ h5 {
 a.btn:hover {
   color: #0085a1;
 }
+
+#disqus_thread{
+     position: relative;
+}
+#disqus_thread:after{
+     content: "";
+     display: block;
+     height: 45px;
+     width: 100%;
+     position: absolute;
+     bottom: 0px;
+     background:white;
+}
