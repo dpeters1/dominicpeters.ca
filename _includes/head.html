@@ -6,7 +6,12 @@
     <meta name="description" content="{% if page.layout == 'post' %}{{ page.subtitle }}{% else %}{{ site.description }}{% endif %}">
     <meta name="robots" content="index, follow">
 
-    <title>{% if page.url != '/index.html' %}{{ page.title }} | {% endif %}{{site.title}}</title>
+    {% if page.title == "home" %}<title>{{site.title}}{% if paginator.page > 1 %} - Page {{paginator.page}}{% endif %}</title>{% endif %}
+    {% if page.title == "projects" %}<title>{{ page.title }} | {{site.title}}{% if paginator.page > 1 %} - Page {{paginator.page}}{% endif %}</title>{% endif %}
+    {% if page.title == "tidbits" %}<title>{{ page.title }} | {{site.title}}{% if paginator.page > 1 %} - Page {{paginator.page}}{% endif %}</title>{% endif %}
+    {% if page.title == "about" %}<title>{{ page.title }} | {{site.title}}</title>{% endif %}
+
+    {% if page.layout == "post" %}<title>{{ page.title }} | {{site.title}}</title>{% endif %}
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
