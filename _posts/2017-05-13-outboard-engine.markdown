@@ -10,7 +10,7 @@ author:     "Dominic Peters"
 
 ## Backstory
 
-Growing up, I spend a lot of weekends at my Grandparents' cottage. One of the things that this cottage had, was a small aluminium fishing boat. It wasn't uncommon for my dad and I to get up early, grab some worms, and head out onto the water for some morning fishing. Even in it's day, the fishing boat was nothing special. 15ft hull with a 7.5hp Mercury engine meant it wasn't fast either. Regardless, it made for good times out on the water.
+Growing up, I spent a lot of weekends at my Grandparents' cottage. One of the things that this cottage had, was a small aluminium fishing boat. It wasn't uncommon for my dad and I to get up early, grab some worms, and head out onto the water for some morning fishing. Even in it's day, the fishing boat was nothing special. 15ft hull with a 7.5hp Mercury engine meant it wasn't fast either. Regardless, it made for good times out on the water.
 
 As the years went on, the fishing boat started to see less and less use until about a decade ago, when we stopped using it completely. Last I had heard, the engine had a problem and the hull leaked water. A mechanic had looked at the engine and deemed it unrepairable, due to a broken part that was no longer being produced. The engine sat in the garage at the cottage for years, until a few months ago, I decided 'what's the worst that could happen' and took on the task of fixing it.
 
