@@ -125,7 +125,7 @@ The end of summer was nearing and it was time to finally get the Kayak out on th
 ###### First Test: My dad showed up for moral suppport
 <p></p>
 
-# Subsequent Testing
+## Subsequent Testing
 
 The next few tests all revealed small problems that had to be ironed out. Broken set screws, stripped servo gears, and leaky driveline casings were at fault for the premature endings of several of my tests. On one occasion I brushed my hand on the throttle pot while getting out of the kayak, sending the motor into full throttle while the propeller dug into the sand. This caused some significant damage to the bevel gears and meant that in subsequent tests, I could not push over 500W before the gears started to slip. (Previously I had seen numbers up 2500W in telemetry) This is the current state of the kayak until I receive new bevel gears in the mail. On the bright side, this has allowed me to do lots of testing at low power levels. It seems that the kayak is most at home cruising around 300W output power. This allows for a speed similar to the row boats which frequent the section of the Rideau canal on which I test. Most surprisingly, I can get a solid 1 ½ to 2 hours of run time like this. If I slow down to the crawling speed of a regular canoe or kayaker, 3+ hours of runtime is possible. Overall I am quite satisfied with this but can’t wait to get the new gears so I can test what it’s like when the motor is pushing 3.5 HP.
 
