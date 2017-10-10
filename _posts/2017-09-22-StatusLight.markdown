@@ -11,7 +11,7 @@ use_math: true
 <div class="avatar bigAvatar" style="background-image: url('{{ site.baseurl }}/img/statuslight/main.jpg');">
 </div>
 
-Last week I saw a cheap LED tree thing on clearance at Giant Tiger, and while it was severely lacking in usefulness, I thought it might have some potential with a few modifications. Taking the bottom off revealed that the circuitry was very simple- just 3 AAA (3 X 1.5V) batteries in series and an 18 ohm resistor. Since the forward voltage of a single white led is around 3.2V, they had to all be in parallel.
+Last week I saw a cheap LED tree thing on clearance at Giant Tiger, and while it looked pretty chintzy, I thought it might have some potential with a few modifications. Taking the bottom off revealed that the circuitry was very simple- just 3 AAA (3 X 1.5V) batteries in series and an 18 ohm resistor. Since the forward voltage of a single white led is around 3.2V, they had to all be in parallel.
 
 $$I = V/R = (4.5 - 3.2)/18 \\
 = 72 mA $$
