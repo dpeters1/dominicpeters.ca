@@ -7,9 +7,6 @@ categories: tidbits
 author:     "Dominic Peters"
 ---
 
-<div class="avatar bigAvatar" style="background-image: url('{{ site.baseurl }}/img/breathalyzer/main.jpg');">
-</div>
-
 ## Description
 
 The previous owner of my house installed remote controlled ceiling lights in all the bedrooms. This was really cool for a couple weeks, but now I’m realizing that it can be really annoying when I misplace the remote. Each room has a separate remote that only works for that room. Extra remotes are both expensive and hard to come by. Making my own rf remote is impractical as they run in the 400mhz range and there is generally very little documentation about the radio codes for this fan model. 
