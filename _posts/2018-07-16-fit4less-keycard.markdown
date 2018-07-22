@@ -37,10 +37,18 @@ In theory then, if you can clone the UID onto another card the gate should let y
 
 In this case, it required rooting my phone and installing Magisk. At that point, I could install 'Card Emulator Pro' and use it to set any arbitrary static UID. Once set, the UID remains active until a device reboot. This means that to unlock the gate at the gym, I simply have to hold my phone against the reader and wait for the click of the gate. It really couldn't be easier. As an added bonus, since Google Pay doesn't use UID in it's authentication, I can still pay for things with my phone when the spoofed UID is active.
 
-![]({{ site.baseurl }}/img/fit4less/card-emulator.png){:class="center" width="350px"}
+<div class="split">
+    <div id="one">
+        <img src="{{ site.url }}/img/fit4less/card-emulator.png">
+    </div>
+    <div id="two">
+        <video class="center" width="100%" muted autoplay loop>
+          <source src="{{ site.url }}/img/fit4less/fit4less.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>
 
-
-### Explanation
+### Why it Works
 
 The reason why this works is that these tags were never meant to be used as access management devices. In the words of the manufacturer themselves:
 > It is intended for use as single trip or limited use tickets in public transportation networks, loyalty cards or day passes for events as a replacement for conventional ticketing solutions such as paper tickets, magnetic stripe tickets or coins.
